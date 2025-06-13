@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>hDc Host</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <a href="#">
+            <img src="src/image/hdchostlogo.png" alt="hDc Host" class="logo" />
+          </a>
+          <ul class="navbar-items">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#price-container">Preços</a></li>
+            <li><a href="#contact-container">Contato</a></li>
+            <li><a href="#" class="default-btn">Entrar</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <main>
+        <div class="main-banner">
+          <h1>hDC Host</h1>
+          <p>Os melhores serviços para hospedagem para sites!</p>
+        </div>
+
+        <section class="services-container">
+          <ul>
+            <li>
+              <i class="fa-solid fa-shield-halved"></i>
+              <h3>Segurança</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+                earum eligendi, repellendus, velit libero quae voluptas dolorem
+                aspernatur officia obcaecati atque voluptatibus debitis, autem
+                doloribus iste iusto cumque illum! Culpa.
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-rocket"></i>
+              <h3>Performance</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Quibusdam in quidem numquam dolor suscipit? Fugit laudantium
+                dolorum quasi, enim aperiam incidunt impedit, nam, eius quam
+                amet quos qui commodi. Nobis!
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-comments"></i>
+              <h3>Suporte 24/7</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, incidunt? Iste, sed. Asperiores reiciendis quos
+                eaque repellendus, quaerat odio dolorem iure similique
+                provident, repudiandae voluptatibus. Ea voluptate repellat eius
+                totam.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="price-container" id="price-container">
+          <h2>Nossos planos e preços</h2>
+          <p>Selecione o melhor plano para você no momento</p>
+
+          <div class="plans-container">
+            <div class="plan">
+              <ul>
+                <li class="price">R$20/mês</li>
+                <li class="plan-name">Básico</li>
+                <li>15GB de armazenamento</li>
+                <li>25 contas de e-mail</li>
+                <li>Compra de 20 dominios</li>
+                <li>Backup mensal</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+
+            <div class="plan">
+              <ul>
+                <li class="price recommended">R$55/mês</li>
+                <li class="plan-name">Intermediário</li>
+                <li>25GB de armazenamento</li>
+                <li>50 contas de e-mail</li>
+                <li>Compra de 40 dominios</li>
+                <li>Backup semanal</li>
+                <li>Segurança contra ataques DDoS</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn recommended">Saber mais</li>
+              </ul>
+            </div>
+
+            <div class="plan">
+              <ul>
+                <li class="price">R$100/mês</li>
+                <li class="plan-name">Business</li>
+                <li>50GB de armazenamento</li>
+                <li>100 contas de e-mail</li>
+                <li>Compra de +100 dominios</li>
+                <li>Backup diário</li>
+                <li>Segurança contra ataques DDoS e ataques hackers</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="searchdomain-container">
+          <h2>Qual dominio você quer para o seu site?</h2>
+          <p>Verifique se o domínio está disponível</p>
+          <form>
+            <input
+              type="text"
+              name="domain"
+              id="domain"
+              placeholder="Digite o domínio desejado"
+            />
+            <input type="submit" value="Verificar dominio" />
+          </form>
+        </section>
+
+        <section class="contact-container" id="contact-container">
+          <h2>Entre em contato conosco</h2>
+          <p>Estamos aqui para ajudar você!</p>
+          <form>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Seu nome"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail"
+              required
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+            <input type="submit" value="Enviar" />
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2025 hDc Host. Todos os direitos reservados.</p>
+          <ul class="social-icons">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
